@@ -9,6 +9,7 @@ class Usuarios_controller extends CI_Controller
 		$this->load->helper('url');
 		$this->load->helper('html');
 		$this->load->model('usuarios_model');
+		$this->load->library('session');
 		$this->load->database();
 	}
 
